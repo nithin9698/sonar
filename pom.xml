@@ -3,9 +3,9 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.example</groupId>
-	<artifactId>sonar</artifactId>
+	<artifactId>sonar123</artifactId>
 	<version>1.0.3</version>
-	<name>sonar</name>
+	<name>sonar123/name>
 	<packaging>jar</packaging>
 	<description>sample 2022 with Spring Boot</description>
 	<parent>
