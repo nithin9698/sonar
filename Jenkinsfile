@@ -10,14 +10,14 @@ pipeline {
             }
         }
         
-         stage("SonarQube analysis") {
-            agent any
-            steps {
-              withSonarQubeEnv('sonar123') {
-                sh 'mvn sonar:sonar'
-              }
-            }
-          }
+        //  stage("SonarQube analysis") {
+        //     agent any
+        //     steps {
+        //       withSonarQubeEnv('sonar') {
+        //         sh 'mvn sonar:sonar'
+        //       }
+        //     }
+        //   }
 
     }
 }
